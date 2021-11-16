@@ -1,0 +1,231 @@
+html {
+    background-color: #2C2828;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links {
+    font-size: 1.5em;
+    margin: 0 4rem 0 4rem;
+}
+
+.linkicons {
+    height: 50px;
+    width: 60px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(18deg) brightness(104%) contrast(104%);
+}
+
+.linkicons:hover {
+    filter: invert(12%) sepia(95%) saturate(3780%) hue-rotate(356deg) brightness(94%) contrast(120%);
+}
+
+nav {
+    background-color: #383434;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 1rem 2rem 3rem 2rem;
+    list-style: none;
+    border-radius: 1rem;
+    height: auto;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 1rem 2rem 1rem 2rem;
+    list-style: none;
+    border-radius: 1rem;
+    height: auto;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nft {
+    padding: 5px;
+    width: 350px;
+    margin-top: 10px;
+    text-align: center;
+    list-style: none;
+    color: white;
+    border-radius: 2rem;
+
+}
+
+.nft:hover {
+    background-color: #383434;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B80000;
+}
+
+.nftimg  {
+    width: 350px;
+    border-radius: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+.redbold {
+    color: #B80000;
+}
+.book {
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+    font-size: 3em;
+    margin: 0;
+}
+
+@media screen and (max-width: 1337px)  {
+    .links {
+        font-size: 1em;
+    }
+    .linkicons{
+        width: 40px;
+    }
+    .logo{
+        font-size: 2.7em;
+    }
+}
+
+@media screen and (max-width: 1160px)  {
+    .links {
+        margin: 0 3rem 0 3rem;
+    }
+}
+
+@media screen and (max-width: 977px)  {
+    .links {
+        margin: 0 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 817px)  {
+    .links {
+        font-size: 0.8em;
+        margin: 0 2rem 0 2rem;
+    }
+    .linkicons {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 770px)  {
+    .links {
+        font-size: 0.8em;
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    .linkicons {
+        width: 30px;
+    }
+    .logo {
+        font-size: 2.7em;
+    }
+    .nftimg{
+        width: 270px;
+        border-radius: 2rem;        
+    }
+    .nft {
+        font-size: 0.8em;
+        width: 270px;
+    }
+    nav {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    .nav {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+}
+
+@media screen and (max-width: 592px)  {
+    .links {
+        font-size: 0.8em;
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    .linkicons {
+        width: 20px;
+    }
+    .logo {
+        font-size: 2em;
+    }
+    .nftimg{
+        width: 200px;
+        border-radius: 2rem;        
+    }
+    .nft {
+        font-size: 0.5em;
+        width: 200px;
+    }
+    nav {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+}
+
+@media screen and (max-width: 558px)  {
+    .links {
+        font-size: 0.8em;
+        margin: 0 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width: 452px)  {
+    .links {
+        font-size: 0.8em;
+        margin: 0 0.7rem 0 0.7rem;
+    }
+    .nftimg{
+        width: 150px;
+        border-radius: 2rem;        
+    }
+    .nft {
+        font-size: 0.5em;
+        width: 150px;
+    }
+    nav {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+}
+@media screen and (max-width: 337px)  {
+    .links {
+        font-size: 0.8em;
+        margin: 0 0.7rem 0 0.7rem;
+    }
+    .linkicons {
+        width: 20px;
+    }
+    .logo {
+        font-size: 1.5em;
+    }
+}
+.lunch-site {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+.back-button:hover {
+    width: 5rem;
+    height: 2rem;
+    color: #B80000;
+}

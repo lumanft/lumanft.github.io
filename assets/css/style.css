@@ -229,3 +229,8 @@ a:hover {
     height: 2rem;
     color: #B80000;
 }
+
+footer {
+    color: white;
+    word-wrap: break-word;
+}
